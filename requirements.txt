@@ -1,0 +1,33 @@
+# ============================================================================
+# Graph-Policy-Induction Requirements
+# ============================================================================
+
+# Core Deep Learning
+torch>=2.0.0,<2.3.0
+torch-geometric>=2.4.0
+
+# PyTorch Geometric Dependencies (required for HeteroConv, SAGEConv, GATConv)
+# Note: Install these AFTER installing PyTorch based on your CUDA version
+# For CPU-only: pip install torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cpu.html
+# For CUDA 11.8: pip install torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
+# For CUDA 12.1: pip install torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.0.0+cu121.html
+
+# Data Processing & Analysis
+pandas>=2.0.0
+numpy>=1.24.0,<2.0.0
+
+# Machine Learning & Clustering
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+
+# Jupyter (optional - for notebooks)
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
