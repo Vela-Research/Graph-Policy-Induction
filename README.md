@@ -280,16 +280,6 @@ The system uses **ranking-based evaluation** (no classification thresholds):
 - **Lift@K** - Improvement over random baseline
 - **F0.5** - Precision-weighted F-score (for reference)
 
-### Benchmark Comparisons
-
-| Method | P@100 | Notes |
-|--------|-------|-------|
-| Random | ~8% | Base rate |
-| Tier-1 VCs | 5.6% | Human benchmark |
-| GPTree | 7.8% | LLM decision tree |
-| RRF | 13.1% | Random Rule Forest |
-| **This Model** | **~29%+** | GNN + Clustering |
-
 ## Output Files
 
 After running the pipeline:
