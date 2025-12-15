@@ -12,7 +12,7 @@ This system implements a GNN-based approach to founder success prediction that:
 4. **Performs clustering** - Identifies founder archetypes by combining GNN embeddings with baseline features
 5. **Evaluates on test set** - Measures precision@K and cluster assignment performance
 
-## 🔬 Transductive Learning: Network-Aware Predictions
+## Transductive Learning: Network-Aware Predictions
 
 **This system uses TRANSDUCTIVE learning** - the GNN is trained on the entire graph structure simultaneously:
 - During training, the model sees **all nodes** (train, validation, AND test)
