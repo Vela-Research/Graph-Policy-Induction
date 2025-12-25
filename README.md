@@ -342,11 +342,11 @@ This implementation is part of Vela Research's work on AI-driven venture capital
 ## Citation
 
 ```bibtex
-@software{founder_gnn_2024,
+@software{Graph-Policy-Induction_2024,
   title={Founder Success Prediction using Graph Neural Networks},
-  author={Vela Research},
+  author={Jude Popham, Vela Research},
   year={2024},
-  url={https://github.com/vela-research/founder-success-gnn}
+  url={https://github.com/vela-research/Graph-Policy-Induction}
 }
 ```
 
