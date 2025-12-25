@@ -94,7 +94,7 @@ Model discovers through the graph:
 ## Repository Structure
 
 ```
-founder-success-gnn/
+Graph-Policy-Induction/
 ├── config.py                 # Configuration management
 ├── main.py                   # Main entry point (CLI)
 ├── requirements.txt          # Python dependencies
@@ -131,8 +131,8 @@ founder-success-gnn/
 
 ```bash
 # Clone the repository
-git clone https://github.com/vela-research/founder-success-gnn.git
-cd founder-success-gnn
+git clone https://github.com/vela-research/Graph-Policy-Induction.git
+cd Graph-Policy-Induction
 
 # Create virtual environment (recommended)
 python -m venv venv
